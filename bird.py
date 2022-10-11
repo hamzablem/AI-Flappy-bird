@@ -4,7 +4,7 @@ class Bird:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        self.tilt ,self.tick_count, self.vel  = 0, 0, 0
+        self.tilt, self.tick_count, self.vel  = 0, 0, 0
         self.heigth = self.y
         self.img = Bird[0]
 
